@@ -1,0 +1,156 @@
+.App {
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3D5A6C;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px grey;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+nav li {
+    float: left;
+}
+
+.AuthorTitle h2 {
+    cursor: pointer;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.selected {
+    font-weight: bold;
+    color: white;
+    background-color: #747274;
+}
+
+.AuthorTitle {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.ScheduleContent {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.ScheduleContent h2 {
+    cursor: pointer;
+}
+
+.ScheduleContent p {
+    cursor: pointer;
+}
+
+.ContentTitle h4 {
+    color: #3D5A6C;
+    cursor: pointer;
+}
+
+.DropdownBtn {
+    background-color: #767676;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.DropdownBtn li a:hover {
+    background-color: #767676;
+}
+
+.LoginForm {
+    width: 80%;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.LoginForm input {
+    width: 100%;
+    margin: 5px auto;
+    border: 5px solid #3D5A6C;
+    border-radius: 12px;
+    height: 20px;
+    padding: 5px;
+    color: #767676;
+}
+
+.AdminButton {
+    border: 2px solid #222;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 5px;
+    background-color: #767676;
+    color: white;
+}
+
+.AuthorBtn {
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #747274;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    nav li {
+        text-align: center;
+        float: none;
+    }
+}
+
+.notFound h1 {
+    color: aquamarine;
+}
+
+.FullNav {
+    display: block;
+    width: 100%;
+}
+
+.DropdownNav {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav li {
+        text-align: center;
+        float: none;
+    }
+    .FullNav {
+        display: none;
+    }
+    .DropdownNav {
+        display: block;
+    }
+}

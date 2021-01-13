@@ -1,0 +1,1 @@
+status: 500 - Message: SQLSTATE[HY000]: General error: 17 near "authors": syntax error - File: D:\xampp\htdocs\projects\Web_Application_Integration\part1\includes\classes\recordset.class.php - Line: 29
